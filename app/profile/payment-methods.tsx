@@ -11,17 +11,7 @@ import {
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { router } from 'expo-router';
-import { 
-  ArrowLeft, 
-  Plus, 
-  CreditCard, 
-  Smartphone,
-  Trash2,
-  CheckCircle,
-  Circle,
-  Wallet,
-  DollarSign
-} from 'lucide-react-native';
+import { ArrowLeft, Plus, CreditCard, Smartphone, Trash2, CircleCheck as CheckCircle, Circle, Wallet, DollarSign } from 'lucide-react-native';
 
 interface PaymentMethod {
   id: string;

@@ -10,18 +10,7 @@ import {
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { router } from 'expo-router';
-import { 
-  ArrowLeft, 
-  Download, 
-  FileText, 
-  Calendar,
-  Users,
-  DollarSign,
-  CheckCircle,
-  Clock,
-  Share2,
-  Mail
-} from 'lucide-react-native';
+import { ArrowLeft, Download, FileText, Calendar, Users, DollarSign, CircleCheck as CheckCircle, Clock, Share2, Mail } from 'lucide-react-native';
 import { apiService } from '@/services/api';
 
 interface ExportOption {
